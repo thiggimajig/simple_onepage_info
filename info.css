@@ -22,7 +22,6 @@ body {
     margin: 0;
     line-height: inherit
 }
-
 hr {
     height: 0;
     color: inherit;
@@ -594,6 +593,10 @@ img,video {
 
 .opacity-50 {
     opacity: .5
+}
+
+.clock-rotate{
+    animation: circle 6s linear infinite;
 }
 
 .outline-1 {
