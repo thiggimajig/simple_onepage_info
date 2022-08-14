@@ -37,6 +37,9 @@ h1,h2,h3,h4,h5,h6 {
     font-size: inherit;
     font-weight: inherit
 }
+h2, .hsub1 {
+    text-align: left;
+  }
 
 a {
     color: inherit;
@@ -149,9 +152,24 @@ ol,ul,menu {
     padding: 0
 }
 .container {
-    max-width: 748px;
+    max-width: px;
     margin: auto;
   }
+
+  article {
+    flex: 0 0 auto;
+    width: 320px;
+    margin-bottom: 48px;
+    padding: 0 24px;
+  }
+
+  .article-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px 64px;
+    justify-content: space-evenly;
+  }
+
 textarea {
     resize: vertical
 }
@@ -681,7 +699,14 @@ section {
     }
 }
 
-section h2 {
+header:not(#document-header) {
+    margin: 0 32px;
+    padding: 8px 0;
+    border-bottom: solid 1px #E6E6E6;
+    border-top: solid 1px #E6E6E6;
+  }
+
+/* section h2 {
     grid-column: span 2 / span 2;
     display: block;
     font-family: Newsreader,Georgia,Times,Times New Roman,serif;
@@ -689,7 +714,16 @@ section h2 {
     font-style: italic;
     --tw-text-opacity: 1;
     color: rgb(71 85 105 / var(--tw-text-opacity))
-}
+} */
+
+h2 {
+    font-family: Newsreader,Georgia,Times,Times New Roman,serif;
+    /* text-transform: uppercase; */
+    font-size: 1.2em;
+    color: var(--h2-text-color);
+    font-weight: 300;
+    font-style: italic;
+  }
 
 .dark section h2 {
     --tw-text-opacity: 1;
