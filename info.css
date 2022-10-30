@@ -1,11 +1,16 @@
-@import"https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";@import url(https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);*,:before,:after {
+@import"https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+@import url(https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+*,
+:before,
+:after {
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
     border-color: #e5e7eb
 }
 
-:before,:after {
+:before,
+:after {
     --tw-content: ""
 }
 
@@ -15,13 +20,14 @@ html {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-    font-family: Archivo,system-ui
+    font-family: Archivo, system-ui
 }
 
 body {
-    margin: 0;
+    margin: auto;
     line-height: inherit
 }
+
 hr {
     height: 0;
     color: inherit;
@@ -33,25 +39,36 @@ abbr:where([title]) {
     text-decoration: underline dotted
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: inherit;
     font-weight: inherit
 }
-h2, .hsub1 {
+
+h2,
+.hsub1 {
     text-align: left;
-  }
+}
 
 a {
     color: inherit;
     text-decoration: inherit
 }
 
-b,strong {
+b,
+strong {
     font-weight: bolder
 }
 
-code,kbd,samp,pre {
-    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+code,
+kbd,
+samp,
+pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
     font-size: 1em
 }
 
@@ -59,7 +76,8 @@ small {
     font-size: 80%
 }
 
-sub,sup {
+sub,
+sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -80,7 +98,11 @@ table {
     border-collapse: collapse
 }
 
-button,input,optgroup,select,textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
     font-family: inherit;
     font-size: 100%;
     line-height: inherit;
@@ -89,11 +111,15 @@ button,input,optgroup,select,textarea {
     padding: 0
 }
 
-button,select {
+button,
+select {
     text-transform: none
 }
 
-button,[type=button],[type=reset],[type=submit] {
+button,
+[type=button],
+[type=reset],
+[type=submit] {
     -webkit-appearance: button;
     background-color: transparent;
     background-image: none
@@ -111,7 +137,8 @@ progress {
     vertical-align: baseline
 }
 
-::-webkit-inner-spin-button,::-webkit-outer-spin-button {
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
     height: auto
 }
 
@@ -133,12 +160,24 @@ summary {
     display: list-item
 }
 
-blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre {
-    margin: 0
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+    margin: auto
 }
 
 fieldset {
-    margin: 0;
+    margin: auto;
     padding: 0
 }
 
@@ -146,50 +185,59 @@ legend {
     padding: 0
 }
 
-ol,ul,menu {
+ol,
+ul,
+menu {
     list-style: none;
-    margin: 0;
+    margin: auto;
     padding: 0
 }
+
 .container {
     max-width: px;
     margin: auto;
-  }
+}
 
-  article {
+article {
     flex: 0 0 auto;
-    width: 320px;
-    margin-bottom: 48px;
+    width: 520px;
+    /* margin-bottom: 55px; */
+    margin: auto;
     padding: 0 24px;
-  }
+}
 
-  .article-wrapper {
+.article-wrapper {
     display: flex;
     flex-wrap: wrap;
     padding: 48px 64px;
     justify-content: space-evenly;
-  }
+    margin: auto;
+}
 
 textarea {
     resize: vertical
 }
 
-input::-moz-placeholder,textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
     opacity: 1;
     color: #9ca3af
 }
 
-input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
     opacity: 1;
     color: #9ca3af
 }
 
-input::placeholder,textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
     opacity: 1;
     color: #9ca3af
 }
 
-button,[role=button] {
+button,
+[role=button] {
     cursor: pointer
 }
 
@@ -197,12 +245,20 @@ button,[role=button] {
     cursor: default
 }
 
-img,svg,video,canvas,audio,iframe,embed,object {
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
     display: block;
     vertical-align: middle
 }
 
-img,video {
+img,
+video {
     max-width: 100%;
     height: auto
 }
@@ -211,7 +267,9 @@ img,video {
     display: none
 }
 
-*,:before,:after {
+*,
+:before,
+:after {
     --tw-translate-x: 0;
     --tw-translate-y: 0;
     --tw-rotate: 0;
@@ -366,7 +424,7 @@ img,video {
 }
 
 .transform {
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
 .cursor-pointer {
@@ -374,7 +432,7 @@ img,video {
 }
 
 .grid-cols-1 {
-    grid-template-columns: repeat(1,minmax(0,1fr))
+    grid-template-columns: repeat(1, minmax(0, 1fr))
 }
 
 .flex-col {
@@ -541,7 +599,7 @@ img,video {
 }
 
 .font-serif {
-    font-family: Newsreader,Georgia,Times,Times New Roman,serif
+    font-family: Newsreader, Georgia, Times, Times New Roman, serif
 }
 
 .text-xl {
@@ -613,7 +671,7 @@ img,video {
     opacity: .5
 }
 
-.clock-rotate{
+.clock-rotate {
     animation: circle 6s linear infinite;
 }
 
@@ -628,16 +686,16 @@ img,video {
 }
 
 .transition-colors {
-    transition-property: color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;
-    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke;
-    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     transition-duration: .15s
 }
 
 .transition-all {
     transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     transition-duration: .15s
 }
 
@@ -690,21 +748,22 @@ a:not(.clean):hover {
 }
 
 section {
-    grid-template-columns: repeat(12,minmax(0,1fr))
+    grid-template-columns: repeat(12, minmax(0, 1fr))
 }
 
 @media (min-width: 768px) {
     section {
-        display:grid
+        display: grid
     }
 }
 
 header:not(#document-header) {
-    margin: 0 32px;
+    margin: auto;
     padding: 8px 0;
     border-bottom: solid 1px #E6E6E6;
     border-top: solid 1px #E6E6E6;
-  }
+}
+
 
 /* section h2 {
     grid-column: span 2 / span 2;
@@ -717,13 +776,14 @@ header:not(#document-header) {
 } */
 
 h2 {
-    font-family: Newsreader,Georgia,Times,Times New Roman,serif;
+    font-family: Newsreader, Georgia, Times, Times New Roman, serif;
     /* text-transform: uppercase; */
     font-size: 1.2em;
     color: var(--h2-text-color);
     font-weight: 300;
     font-style: italic;
-  }
+    width: 520px;
+}
 
 .dark section h2 {
     --tw-text-opacity: 1;
@@ -752,7 +812,7 @@ p {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(96 165 250 / var(--tw-ring-opacity));
     transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     transition-duration: .15s
 }
 
@@ -763,7 +823,7 @@ p {
     color: rgb(37 99 235 / var(--tw-text-opacity));
     --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
     --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-    box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)
 }
 
 .button:active {
@@ -830,7 +890,7 @@ html ::-webkit-scrollbar-thumb:hover {
     -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
     backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
     transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     transition-duration: .15s
 }
 
@@ -872,7 +932,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .dark .dark\:bg-gradient-to-br {
-    background-image: linear-gradient(to bottom right,var(--tw-gradient-stops))
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops))
 }
 
 .dark .dark\:from-slate-900 {
@@ -910,11 +970,10 @@ html ::-webkit-scrollbar-thumb:hover {
 
 @media (min-width: 768px) {
     .md\:mt-0 {
-        margin-top:0
+        margin-top: 0
     }
-
     .md\:grid-cols-3 {
-        grid-template-columns: repeat(3,minmax(0,1fr))
+        grid-template-columns: repeat(3, minmax(0, 1fr))
     }
 }
 
@@ -922,10 +981,11 @@ html ::-webkit-scrollbar-thumb:hover {
     font-size: 14px;
     padding: 1rem 1.5rem;
     background: white;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif
 }
 
-.debug-header.astro-7HSJXGCA,pre.astro-7HSJXGCA {
+.debug-header.astro-7HSJXGCA,
+pre.astro-7HSJXGCA {
     margin: -1rem -1.5rem 1rem;
     padding: .25rem .75rem
 }
