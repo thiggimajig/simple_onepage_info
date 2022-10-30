@@ -50,17 +50,18 @@
               </button>
         </div>
         <div class="text-center">
-            <h1 class="text-2xl font-bold">Taylor Ann Higgins</h1>
+            <h1 class="text-2xl font-bold">Travel Notes</h1>
             <!-- <p class=" text-slate-500 dark:text-slate-200 font-serif italic font-light">more@taylorhiggins.info</p> -->
-            <p class="text-slate-700 dark:text-slate-200"><a href="thiggins_cv2022.pdf">Geospatial Data Analyst</a></p>
-            <p class="dark:text-slate-400 text-slate-600 font-serif italic font-light">Florence, Italy</p>
-
+            <p class="text-slate-700 dark:text-slate-200">
+                Exploring community-led tourism and other ideas.
+            </p>
+            <p class="dark:text-slate-400 text-slate-600 font-serif italic font-light">Written by Taylor Higgins</p>
         </div>
     </header>
 
     <header id="fixed-header" class="fixed hidden w-full top-0 left-0 bg-slate-50 dark:bg-slate-900 bg-opacity-90 backdrop-blur-md border-b dark:border-slate-800">
         <div class="max-w-2xl mx-auto py-1 px-3 flex justify-between items-center">
-            <h1 class="font-semibold">Taylor Higgins</h1>
+            <h1 class="font-semibold">Travel Notes</h1>
             <!-- <h4 class="font-light">Interested in connecting? Email more@taylorhiggins.info!</h4> -->
 
             <button id="theme-toggle" onclick="toggleTheme()" class="hover p-2 rounded-full transition-all dark:text-slate-400 text-slate-700 opacity-80 hover:opacity-100">
@@ -71,241 +72,60 @@
     </header>
 
     <div id="swup" class="max-w-2xl mx-auto p-3">
-        <div aria-label="About me" class="space-y-12 mt-12">
+        <div aria-label="Posts" class="space-y-12 mt-12">
             <main>
-                <section id="links">
-                    <header>
-                        <div class="container">
-                            <h2>Platforms</h2>
+                <section id="Posts">
+                    <!-- <header> -->
+                    <!-- <div class="container">
+                            <h2>Third Entry: December 31st, 2022</h2>
+
                         </div>
 
                         <div class="article-wrapper">
                             <article>
-                                <div class="mt-4 md:mt-0">
-                                    <div class="flex gap-4 flex-wrap text-sm">
-                                        <div class="flex gap-4">
-                                            <a target="_blank" class="clean button whitespace-nowrap flex gap-2 px-3 py-2 rounded-xl items-center" href="https://github.com/thiggimajig">
-                                                <svg viewBox="0 0 16 16" class="w-5" astro-icon="bi:github"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>                                                GitHub
-                                            </a>
-                                        </div>
-                                        <div class="flex gap-4">
-                                            <a target="_blank" class="clean button whitespace-nowrap flex gap-2 px-3 py-2 rounded-xl items-center" href="https://twitter.com/TaylorAKHiggins">
-                                                <svg viewBox="0 0 16 16" class="w-5" astro-icon="bi:twitter"><path fill="currentColor" d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg>                                                Twitter
-                                            </a>
-                                        </div>
-                                        <div class="flex gap-4">
-                                            <a target="_blank" class="clean button whitespace-nowrap flex gap-2 px-3 py-2 rounded-xl items-center" href="https://www.linkedin.com/in/higginstaylor/">
-                                                <svg viewBox="0 0 16 16" class="w-5" astro-icon="bi:linkedin"><path fill="currentColor" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>                                                LinkedIn
+                                <h3>
+                                    <p></p>
 
-                                            </a>
-                                        </div>
-                                        <!-- <div class="flex gap-4">
-                                            <a target="_blank" class="clean button whitespace-nowrap flex gap-2 px-3 py-2 rounded-xl items-center" href="https://observablehq.com/@thiggimajig">
-                                                <svg role="img" viewBox="0 0 25 28" width="25" height="28" aria-label="Observable" fill="currentColor" style="width:22px" class="near-black"><path d="M12.5 22.6667C11.3458 22.6667 10.3458 22.4153 9.5 21.9127C8.65721 21.412 7.98339 20.7027 7.55521 19.8654C7.09997 18.9942 6.76672 18.0729 6.56354 17.1239C6.34796 16.0947 6.24294 15.0483 6.25 14C6.25 13.1699 6.30417 12.3764 6.41354 11.6176C6.52188 10.8598 6.72292 10.0894 7.01563 9.30748C7.30833 8.52555 7.68542 7.84763 8.14479 7.27274C8.62304 6.68378 9.24141 6.20438 9.95208 5.87163C10.6979 5.51244 11.5458 5.33333 12.5 5.33333C13.6542 5.33333 14.6542 5.58467 15.5 6.08733C16.3428 6.588 17.0166 7.29733 17.4448 8.13459C17.8969 8.99644 18.2271 9.9103 18.4365 10.8761C18.6448 11.841 18.75 12.883 18.75 14C18.75 14.8301 18.6958 15.6236 18.5865 16.3824C18.4699 17.1702 18.2639 17.9446 17.9719 18.6925C17.6698 19.4744 17.2948 20.1524 16.8427 20.7273C16.3906 21.3021 15.7927 21.7692 15.0479 22.1284C14.3031 22.4876 13.4542 22.6667 12.5 22.6667ZM14.7063 16.2945C15.304 15.6944 15.6365 14.864 15.625 14C15.625 13.1073 15.326 12.3425 14.7292 11.7055C14.1313 11.0685 13.3885 10.75 12.5 10.75C11.6115 10.75 10.8688 11.0685 10.2708 11.7055C9.68532 12.3123 9.36198 13.1405 9.375 14C9.375 14.8927 9.67396 15.6575 10.2708 16.2945C10.8688 16.9315 11.6115 17.25 12.5 17.25C13.3885 17.25 14.124 16.9315 14.7063 16.2945ZM12.5 27C19.4031 27 25 21.1792 25 14C25 6.82075 19.4031 1 12.5 1C5.59687 1 0 6.82075 0 14C0 21.1792 5.59687 27 12.5 27Z" fill="currentColor"></path></svg>                                                Observable
-                                            </a>
-                                        </div>
-                                        <div class="flex gap-4">
-                                            <a target="_blank" class="clean button whitespace-nowrap flex gap-2 px-3 py-2 rounded-xl items-center" href="https://www.openstreetmap.org/user/tah2133">
-                                                <img src="osm_1.svg" alt="OSM image of a map and magnifiying glass" width="20" height="40"> OSM
-                                            </a>
-                                        </div> -->
-                                    </div>
-                                </div>
-
+                                </h3>
                             </article>
+                        </div>
                     </header>
+                </section>
+
+                <header>
+                    <div class="container">
+                        <h2>Second Entry: November 31st, 2022</h2>
+
                     </div>
-                </section>
-                <!-- <section id="about">
-            <header>
-                <div class="container">
-                  <h2>About</h2>
-                </div>
-              </header>
-                <div class="article-wrapper">
-                    <article>
-                        <p>I'm a data analyst specializing in geospatial data with a background in project management and solutions engineering.</p>
-                        <p>Currently, I'm working on the Saline Agriculture for Adaptation (S.A.L.A.D.) an E.U. funded research project with a transcontinental team in the field of food systems and climate.</p>
-                        <p>I enjoy hybrid roles that allow me to work with clients, end users, as well as design and product teams to solve interesting problems.</p>
-                        <p>Having a non-traditional technical background, I love working with diverse groups and strive to create equity however and wherever I am. It is an ongoing process, but one I am comitted to in my personal and professional life.</p>
-                        <p>I've been incredibly lucky to have worked with brilliant programmers who I've grown <b>a lot</b> with thanks to their patience, support and friendship. I am always happy to chat about careers and other stuff. Connect with me by email if you'd like ♥ more@taylorhiggins.info</p>
-	
+
+                    <div class="article-wrapper">
+                        <article>
+                            <h3>
+                                <p></p>
+
+                            </h3>
+                        </article>
                     </div>
-		</section> -->
-                <section id="experience">
+                </header>
+                 -->
                     <header>
                         <div class="container">
-                            <h2>Experience</h2>
+                            <h2>First Entry: October 31st, 2022</h2>
+
                         </div>
 
                         <div class="article-wrapper">
                             <article>
                                 <h3>
-                                    <p>Currently, I am a Data Analyst @ <a href="https://www.foscera.net/en/foscera/projects/salad-1.htm">SALAD</a></p>
-                                    <p>Previously, I was an Integrations Engineer @ <a href="https://www.oracle.com/cx/advertising/measurement/analytics/">Moat Oracle Data Cloud</a></p>
-                                    <p>And before that, I was a Sales Development Manager @ <a href="https://www.liveintent.com/">LiveIntent</a></p>
+                                    <p></p>
+
                                 </h3>
                             </article>
                         </div>
                     </header>
                 </section>
-                <section id="projects">
-                    <header>
-                        <div class="container">
-                            <h2>Projects</h2>
-                        </div>
-
-                        <div class="article-wrapper">
-                            <article>
-                                <h3>
-                                    <p>Short-Term-Rental <a href="https://airbnb-policy-tool.herokuapp.com/">Policy Tool </a>for Florence. Built with folium, django, heroku, bootstrap and postgres/postgis and lots of ♥ </p>
-                                    <p>Open Source Documentation Translator for <a href="https://geodacenter.github.io/">GeoDa</a> a free and open source software tool that makes spatial data science more accessible</p>
-                                </h3>
-                            </article>
-                        </div>
-                    </header>
-                </section>
-                <section id="formal education">
-                    <header>
-                        <div class="container">
-                            <h2>Formal Education</h2>
-                        </div>
-
-                        <div class="article-wrapper">
-                            <article>
-                                <h3>
-                                    <h4 class="font-semibold">Master's Degree in Economics (Sustainable System Design)</h4>
-                                    <p class="font-serif italic">September 2020 - July 2022</p>
-                                    <p class="font-serif italic">School of Economics and Statistics, University of Florence, Florence, Italy</p>
-                                    <h4 class="font-semibold">Bachelor's Degree in History</h4>
-                                    <p class="font-serif italic">September 2009 - May 2013</p>
-                                    <p class="font-serif italic">Barnard College, Columbia University, New York, USA</p>
-                                </h3>
-                            </article>
-                        </div>
-                    </header>
-                </section>
-                <section id="formal education">
-                    <header>
-                        <div class="container">
-                            <h2>Informal Education</h2>
-                        </div>
-
-                        <div class="article-wrapper">
-                            <article>
-                                <h3>
-                                    <h4 class="font-semibold">Advanced Python Programming</h4>
-                                    <p class="font-serif italic">January 2019 - May 2019</p>
-                                    <p class="font-serif italic">New York University School of Professional Studies</p>
-                                    <h4 class="font-semibold">Introduction to Algorithms</h4>
-                                    <p class="font-serif italic">January 2017 - May 2017</p>
-                                    <p class="font-serif italic">University of California, San Diego via Coursera (MOOC)</p>
-                                    <h4 class="font-semibold">Introduction to Python</h4>
-                                    <p class="font-serif italic">September 2016 - December 2016</p>
-                                    <p class="font-serif italic">Wesleyan University via Coursera (MOOC)</p>
-                                    <h4 class="font-semibold">CS50 Introduction to Computer Science</h4>
-                                    <p class="font-serif italic">September 2015 - December 2015</p>
-                                    <p class="font-serif italic">Harvard University via MIT OpenCourseWare (MOOC)</p>
-                                </h3>
-                            </article>
-                        </div>
-                    </header>
-                </section>
-                <section id="volunteer">
-                    <header>
-                        <div class="container">
-                            <h2>Volunteer</h2>
-                        </div>
-
-                        <div class="article-wrapper">
-                            <article>
-                                <h3>
-                                    <h4 class="font-semibold">Inside Airbnb </h4>
-                                    <p>Built, grew and managed two online communities focused on data and activism to support the mission of Inside Airbnb which is to empower communities to understand and control the role of renting residential homes to
-                                        tourists.
-                                    </p>
-                                    <h4 class="font-semibold">OPEN Communications Chair</h4>
-                                    <p>For Oracle’s global LGBTQ+ employee resource group I initiated, led and implemented a monthly education series around themed topics including mental health and wellness, acronym definitions, and literature icons.</p>
-                                    <h4 class="font-semibold">New Sanctuary Coalition</h4>
-                                    <p>Assisted asylum seekers and pro-se immigration legal experts in New York by conducting preliminary intake interviews, accompanying asylum seekers during their court hearings, and I.C.E checkins.</p>
-                                    <h4 class="font-semibold">Power of WOW</h4>
-                                    <p>Art therapy including song, dance and crafts for children with neuro divergent abilities.</p>
-                                </h3>
-                            </article>
-                        </div>
-                    </header>
-                </section>
-                <!-- <section id="links">
-            <header>
-                <div class="container">
-                  <h2>Platforms</h2>
-                </div>
-            </header>
-			<div class="article-wrapper">
-                <article>
-                    <div class="mt-4 md:mt-0">
-                        <div class="flex gap-4 flex-wrap text-sm">
-                            <div class="flex gap-4">
-                                <a target="_blank" class="clean button whitespace-nowrap flex gap-2 px-3 py-2 rounded-xl items-center" href="https://github.com/thiggimajig">
-                                    <svg viewBox="0 0 16 16" class="w-5" astro-icon="bi:github"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-        
-                                    GitHub
-                                </a>
-                            </div>
-                            <div class="flex gap-4">
-                                <a target="_blank" class="clean button whitespace-nowrap flex gap-2 px-3 py-2 rounded-xl items-center" href="https://twitter.com/TaylorAKHiggins">
-                                    <svg viewBox="0 0 16 16" class="w-5" astro-icon="bi:twitter"><path fill="currentColor" d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg>
-        
-                                    Twitter
-                                </a>
-                            </div>
-                            <div class="flex gap-4">
-                                <a target="_blank" class="clean button whitespace-nowrap flex gap-2 px-3 py-2 rounded-xl items-center" href="https://www.linkedin.com/in/higginstaylor/">
-                                    <svg viewBox="0 0 16 16" class="w-5" astro-icon="bi:linkedin"><path fill="currentColor" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
-        
-                                    LinkedIn
-                            
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                
-                </article>
 
 
-			</div>
-		</section> -->
-                <section id="about">
-                    <header>
-                        <div class="container">
-                            <h2>About</h2>
-                        </div>
-
-                        <div class="article-wrapper">
-                            <article>
-                                <p>I am a data analyst specializing in geospatial data with a background in project management, sales and technical implementation.</p>
-                                <p>Currently, I am managing and analyzing the spatial data for an E.U. funded project, Saline Agriculture for Adaptation (S.A.L.A.D.), alongside a transcontinental research team in the field of food systems and climate.</p>
-                                <p>I enjoy hybrid roles that allow me to work with end users, as well as design and product teams to solve interesting problems. I'm very curious and like to deep dive into new topics.</p>
-                                <p>Having a non-traditional technical background, I love working on diverse teams and strive to promote equality and inclusion however and wherever I am. It is an ongoing process, but one that I am comitted to in my personal
-                                    and professional life.</p>
-                                <p>I have been incredibly lucky to have worked with brilliant programmers who I've grown <b>a lot</b> with thanks to their patience, support and friendship. I am always happy to chat about career switches, self-learning and
-                                    open source communities. In my free time I like to bike, ski, and draw trees. </p>
-                                <p>Connect with me by email if you'd like ♥ more@taylorhiggins.info</p>
-
-                        </div>
-                    </header>
-                </section>
-                <section id="about">
-                    <header>
-                        <div class="container">
-                            <h2>Coming Soon!</h2>
-                        </div>
-
-                        <div class="article-wrapper">
-                            <article>
-                                <p>Blogs on community-led tourism, languages and plants</p>
-                        </div>
-                    </header>
         </div>
         </main>
         <footer class="max-w-2xl mx-auto px-4 mt-24 border-gray-800 pt-12 pb-16 flex justify-between">
