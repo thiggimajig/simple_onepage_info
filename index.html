@@ -38,8 +38,11 @@
             document.documentElement.classList.add(localTheme)
         }
     </script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="info.css"></link>
+
 </head>
 
 <body class="bg-slate-50 dark:bg-gradient-to-br dark:from-slate-900 dark:to-black dark:text-slate-50 min-h-screen">
@@ -52,7 +55,7 @@
         <div class="text-center">
             <h1 class="text-2xl font-bold">Taylor Higgins</h1>
             <!-- <p class=" text-slate-500 dark:text-slate-200 font-serif italic font-light">more@taylorhiggins.info</p> -->
-            <p class="text-slate-700 dark:text-slate-200"><a href="taylor_resume.pdf">Programmer</a></p>
+            <p class="text-slate-700 dark:text-slate-200"><a href="taylor_cv.pdf">Programmer</a></p>
             <p class="dark:text-slate-400 text-slate-600 font-serif italic font-light">Remote - Florence & New York</p>
 
         </div>
@@ -70,9 +73,13 @@
         </div>
     </header>
 
+
+
     <div id="swup" class="max-w-2xl mx-auto p-3">
         <div aria-label="About me" class="space-y-12 mt-12">
             <main>
+
+
                 <section id="links">
                     <header>
                         <div class="container">
@@ -124,6 +131,49 @@
                     </header>
                     </div>
                 </section>
+                <section id="test">
+                    <header>
+                        <div class="container">
+                            <div class="accordion" id="accordionExample">
+                                <!-- <div class="accordion-item"> -->
+                                <!-- <div class="accordion-header" id="headingOne"> -->
+                                <!-- <button class="accordion-button" type="button" data-bs-toggle="collapse open" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> -->
+                                <button class="btn btn-link btn-block text-left text-decoration-none text-reset" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h2>About Me</h2>
+                                </button>
+                            </div>
+                            <!-- <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample"> -->
+                            <!-- <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                    though the transition does limit overflow.
+                                </div>
+
+                            </div> -->
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="accordion-body article-wrapper">
+                                    <article>
+                                        <p>I am a programmer specializing in geospatial data with a background in project management, sales and technical implementation.</p>
+                                        <p>Currently, I am managing and analyzing the spatial data for an E.U. funded project, Saline Agriculture for Adaptation (SALAD), alongside a transcontinental research team in the field of food systems and climate.</p>
+                                        <p>I enjoy hybrid roles that allow me to work with end users, as well as design and product teams to solve interesting problems. I'm very curious and like to deep dive into new topics.</p>
+                                        <p>Though my academic background is in the social sciences, I gravitated towards tech startups in the advertising data sector after graduating college in 2013 because there were so many opportunities. I cherish those
+                                            stimulating experiences where I learned how to collaborate with diverse teams, analyse large datasets, and provide high level customer service.</p>
+                                        <p>During that time, I was fortunate enough to cultivate my technical skills through a patchwork of courses, volunteer projects, and peer mentoring. Now I'm thrilled to be using those technical skills to solve problems
+                                            related to the social sciences, especially ones that help cities create more equitable and sustainable policies. </p>
+                                        <!-- <p> it's non traditional because I have always been interested in social sciencs, resiliently worked in tech in order to gain experience, it showed me the power of programming, worked on learning at work and with classes, knew I wanted to dig deep into a social sicence problem so I could more informed apply technical skills, so took the leap to quit and do a masters. </p> -->
+                                        <p>Having a non-traditional technical background, I find that I love working on diverse teams and strive to promote equality and inclusion wherever I am. It is an ongoing process, but one that I am comitted to in my
+                                            personal and professional life. </p>
+                                        <p>I have been incredibly lucky to have worked with brilliant programmers who I've grown <b>a lot</b> with thanks to their patience, support and friendship. I am always happy to chat about making career pivots, engaging
+                                            with open source commmunities how to hold yourself accountable when self-learning. </p>
+                                        <p>Connect with me by email if you'd like ♥ more@taylorhiggins.info</p>
+
+                                </div>
+                            </div>
+
+                    </header>
+
+                </section>
                 <!-- <section id="about">
             <header>
                 <div class="container">
@@ -149,9 +199,9 @@
                         <div class="article-wrapper">
                             <article>
                                 <h3>
-                                    <p>Currently, I am a programmer specializing in geospatial data analysis @ <a href="https://www.foscera.net/en/foscera/projects/salad-1.htm">SALAD</a></p>
-                                    <p>Previously, I was an Integrations Engineer @ <a href="https://www.oracle.com/cx/advertising/measurement/analytics/">Moat Oracle Data Cloud</a></p>
-                                    <p>And before that, I was a Sales Development Manager @ <a href="https://www.liveintent.com/">LiveIntent</a></p>
+                                    <p>Currently, I am a <b>Spatial Data Analyst</b> specializing in geospatial data analysis @ <a href="https://www.foscera.net/en/foscera/projects/salad-1.htm">SALAD</a></p>
+                                    <p>Previously, I was an <b>Integrations Engineer</b> @ <a href="https://www.oracle.com/cx/advertising/measurement/analytics/">Moat Oracle Data Cloud</a></p>
+                                    <p>And before that, I was a <b>Sales Development Manager</b> @ <a href="https://www.liveintent.com/">LiveIntent</a></p>
                                 </h3>
                             </article>
                         </div>
@@ -166,21 +216,16 @@
                         <div class="article-wrapper">
                             <article>
                                 <h3>
-                                    <p>Short-Term-Rental <a href="https://airbnb-policy-tool.herokuapp.com/">Policy Tool </a>for Florence.
+                                    <h4 class="font-weight-bold">Short-Term-Rental <a href="https://airbnb-policy-tool.herokuapp.com/">Policy Tool </a>for Florence.</h4>
 
-                                        <ul class="list-group">
-                                            <li class="list-group-item">In order to make my master's research usable to the non-academic community, I decided to build a web app so that policy makers and city residents could access the information and engage in a well-informed conversation
-                                                about short-term rental policy in Florence. My goal was to faciliate community-led tourism that could create truly sustainable long-term policy.
-                                            </li>
-                                            <!-- <li class="list-group-item">This project highlights three policy options (already implemented in other cities) to mitigate the negative impacts of Airbnb, and then visualizes the potential impact of those policies on the city of Florence.</li>
+                                    <p>In order to make my master's research usable to the non-academic community, I decided to build a web app so that policy makers and city residents could access the information and engage in a well-informed conversation
+                                        about short-term rental policy in Florence. My goal was to faciliate community-led tourism that could create truly sustainable long-term policy.</p>
 
-                                            <li class="list-group-item">My hope is that it the encourages collaboration between Florence and cities around the globe who are dealing with similar overtourism phenomenon.</li>
-                                            <li class="list-group-item">Built with folium, django, heroku, bootstrap, postgres/postgis and lots of ♥ </li> -->
+                                </h3>
 
-                                        </ul>
-                                    </p>
+                                <h4 class="font-weight-bold">Open Source Documentation Translator for <a href="https://geodacenter.github.io/">GeoDa</a> </h4>
+                                <p>GeoDa is a free and open source software tool that makes spatial data science more accessible.</p>
 
-                                    <p>Open Source Documentation Translator for <a href="https://geodacenter.github.io/">GeoDa</a> a free and open source software tool that makes spatial data science more accessible</p>
                                 </h3>
                             </article>
                         </div>
@@ -197,10 +242,10 @@
                                 <h3>
                                     <h4 class="font-semibold">Master's Degree in Economics (Sustainable System Design)</h4>
                                     <p class="font-serif italic">September 2020 - June 2022</p>
-                                    <p class="font-serif italic">School of Economics and Statistics, University of Florence, Florence, Italy</p>
+                                    <p>School of Economics and Statistics, University of Florence, Florence, Italy</p>
                                     <h4 class="font-semibold">Bachelor's Degree in History</h4>
                                     <p class="font-serif italic">September 2009 - May 2013</p>
-                                    <p class="font-serif italic">Barnard College, Columbia University, New York, USA</p>
+                                    <p>Barnard College, Columbia University, New York, USA</p>
                                 </h3>
                             </article>
                         </div>
@@ -217,17 +262,17 @@
                                 <h3>
                                     <h4 class="font-semibold">Advanced Python Programming</h4>
                                     <p class="font-serif italic">New York University School of Professional Studies</p>
-                                    <p class="font-serif">This class gave me a solid understanding of object oriented and test-driven programming, as well as common web app frameworks such as Flask, and exposed me to the power of pandas and numpy for data analysis.</p>
+                                    <p>This class gave me a solid understanding of object oriented and test-driven programming, as well as common web app frameworks such as Flask, and exposed me to the power of pandas and numpy for data analysis.</p>
                                     <h4 class="font-semibold">Introduction to Algorithms</h4>
                                     <p class="font-serif italic">University of California, San Diego via Coursera (MOOC)</p>
-                                    <p class="font-serif">From this course I gained a high level understanding of the impact that algorithms have when processing large amounts of data. This allows me to apply regression, classification and clustering algorithms more effectively.
+                                    <p>From this course I gained a high level understanding of the impact that algorithms have when processing large amounts of data. This allows me to apply regression, classification and clustering algorithms more effectively.
                                         It also provided a foundation in data structures so that I could better understand how they are used to store, organize and process data.</p>
                                     <h4 class="font-semibold">Introduction to Python</h4>
                                     <p class="font-serif italic">Wesleyan University via Coursera (MOOC)</p>
-                                    <p class="font-serif">This course gave me a foundation in python programming and scripting.</p>
+                                    <p>This course gave me a foundation in python programming and scripting.</p>
                                     <h4 class="font-semibold">CS50 Introduction to Computer Science</h4>
                                     <p class="font-serif italic">Harvard University via MIT OpenCourseWare (MOOC)</p>
-                                    <p class="font-serif">This course created a strong context for understanding computer programming and computer science.</p>
+                                    <p>This course created a strong context for understanding computer programming and computer science.</p>
                                 </h3>
                             </article>
                         </div>
@@ -297,7 +342,7 @@
 
 			</div>
 		</section> -->
-
+                <!-- 
                 <section id="about">
                     <header>
                         <div class="container">
@@ -313,7 +358,7 @@
                                     experiences where I learned how to collaborate with diverse teams, analyse large datasets, and provide high level customer service.</p>
                                 <p>During that time, I was fortunate enough to cultivate my technical skills through a patchwork of courses, volunteer projects, and peer mentoring. Now I'm thrilled to be using those technical skills to solve problems related
                                     to the social sciences, especially ones that help cities create more equitable and sustainable policies. </p>
-                                <!-- <p> it's non traditional because I have always been interested in social sciencs, resiliently worked in tech in order to gain experience, it showed me the power of programming, worked on learning at work and with classes, knew I wanted to dig deep into a social sicence problem so I could more informed apply technical skills, so took the leap to quit and do a masters. </p> -->
+                                <p> it's non traditional because I have always been interested in social sciencs, resiliently worked in tech in order to gain experience, it showed me the power of programming, worked on learning at work and with classes, knew I wanted to dig deep into a social sicence problem so I could more informed apply technical skills, so took the leap to quit and do a masters. </p> 
                                 <p>Having a non-traditional technical background, I find that I love working on diverse teams and strive to promote equality and inclusion wherever I am. It is an ongoing process, but one that I am comitted to in my personal
                                     and professional life. </p>
                                 <p>I have been incredibly lucky to have worked with brilliant programmers who I've grown <b>a lot</b> with thanks to their patience, support and friendship. I am always happy to chat about making career pivots, engaging with
@@ -322,7 +367,7 @@
 
                         </div>
                     </header>
-                </section>
+                </section> -->
                 <section id="coming soon">
                     <header>
                         <div class="container">
@@ -371,21 +416,21 @@
 
                         </div>
                     </header>
-        </div>
-        </main>
-        <footer class="max-w-2xl mx-auto px-4 mt-24 border-gray-800 pt-12 pb-16 flex justify-between ">
-            <div class="flex gap-2 items-start ">
+                    </div>
+            </main>
+            <footer class="max-w-2xl mx-auto px-4 mt-24 border-gray-800 pt-12 pb-16 flex justify-between ">
+                <div class="flex gap-2 items-start ">
 
-                <svg viewBox="0 0 256 256 " class="w-6 opacity-50 " astro-icon="ph:clock "><path fill="currentColor " d="M128 24a104 104 0 1 0 104 104A104.2 104.2 0 0 0 128 24zm0 192a88 88 0 1 1 88-88 88.1 88.1 0 0 1-88 88zm64-88a8 8 0 0 1-8 8h-56a8
+                    <svg viewBox="0 0 256 256 " class="w-6 opacity-50 " astro-icon="ph:clock "><path fill="currentColor " d="M128 24a104 104 0 1 0 104 104A104.2 104.2 0 0 0 128 24zm0 192a88 88 0 1 1 88-88 88.1 88.1 0 0 1-88 88zm64-88a8 8 0 0 1-8 8h-56a8
                                                 8 0 0 1-8-8V72a8 8 0 0 1 16 0v48h48a8 8 0 0 1 8 8z "/></svg>
 
-                <div class="flex flex-col text-slate-500 dark:text-slate-600 ">
-                    <p class="font-serif italic ">
-                        Time in Florence</p>
-                    <p id="time" class="-mt-4 "></p>
+                    <div class="flex flex-col text-slate-500 dark:text-slate-600 ">
+                        <p class="font-serif italic ">
+                            Time in Florence</p>
+                        <p id="time" class="-mt-4 "></p>
+                    </div>
                 </div>
-            </div>
-            <!-- <div><svg version="1.1 " id="Layer_1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink " x="0px " y="0px " width="100% " viewBox="0 0 1024 768 " enable-background="new 0 0 1024 768 " xml:space="preserve ">
+                <!-- <div><svg version="1.1 " id="Layer_1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink " x="0px " y="0px " width="100% " viewBox="0 0 1024 768 " enable-background="new 0 0 1024 768 " xml:space="preserve ">
             <path fill="currentColor " opacity="1.000000 " stroke="none " 
                 d=" M1.000000,702.468628 C5.418803,705.614136 3.140674,710.737915 3.537518,715.056763 C4.705030,727.762695 5.005418,740.547241 5.702858,753.297913 C5.975046,758.274048 6.400798,763.241760 6.878303,768.606689 C5.012064,769.000000 3.024128,769.000000
                                                 1.000000,769.000000 C1.000000,746.979126 1.000000,724.958191 1.000000,702.468628 z "/>
@@ -486,79 +531,84 @@
                 d=" M594.868774,325.031586 C592.421387,326.668030 590.391724,326.316711 588.678772,324.621582 C587.585327,323.539490 587.941467,322.167603 588.672119,320.935120 C589.960327,318.762238 591.995544,318.080750 594.251953,318.713501 C598.784790,319.984619
                                                 596.294067,322.540710 594.868774,325.031586 z "/>
             </svg></div> -->
-        </footer>
-    </div>
-    <script type="module " src="data:application/javascript;base64,aW1wb3J0IFN3dXAgZnJvbSAnc3d1cCcKaW1wb3J0IFN3dXBBMTF5UGx1Z2luIGZyb20gJ0Bzd3VwL2ExMXktcGx1Z2luJwppbXBvcnQgU3d1cEhlYWRQbHVnaW4gZnJvbSAnQHN3dXAvaGVhZC1wbHVnaW4nCmltcG9ydCBTd3VwU2xpZGVUaGVtZSBmcm9tICdAc3d1cC9zbGlkZS10aGVtZScKCmNvbnN0IHN3dXAgPSBuZXcgU3d1cCh7CiAgICBwbHVnaW5zOiBbbmV3IFN3dXBBMTF5UGx1Z2luKCksIG5ldyBTd3VwSGVhZFBsdWdpbigpLCBuZXcgU3d1cFNsaWRlVGhlbWUoKV0sCn0pCg=="></script>
-    <!-- Image thing -->
-    <script>
-        // Images
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
+        <script type="module " src="data:application/javascript;base64,aW1wb3J0IFN3dXAgZnJvbSAnc3d1cCcKaW1wb3J0IFN3dXBBMTF5UGx1Z2luIGZyb20gJ0Bzd3VwL2ExMXktcGx1Z2luJwppbXBvcnQgU3d1cEhlYWRQbHVnaW4gZnJvbSAnQHN3dXAvaGVhZC1wbHVnaW4nCmltcG9ydCBTd3VwU2xpZGVUaGVtZSBmcm9tICdAc3d1cC9zbGlkZS10aGVtZScKCmNvbnN0IHN3dXAgPSBuZXcgU3d1cCh7CiAgICBwbHVnaW5zOiBbbmV3IFN3dXBBMTF5UGx1Z2luKCksIG5ldyBTd3VwSGVhZFBsdWdpbigpLCBuZXcgU3d1cFNsaWRlVGhlbWUoKV0sCn0pCg=="></script>
+        <!-- Image thing -->
+        <script>
+            // Images
 
-        const imgs = document.querySelectorAll('img');
-        imgs.forEach(img => {
-            img.addEventListener('load', () => {
-                img.classList.add('loaded');
-            });
-            img.addEventListener('click', () => {
-                img.classList.toggle('fullscreen')
-                document.body.toggle('overflow-hidden')
-            });
-        })
-
-
-        // -----------------
-
-        // Update time every 15s
-
-        let options = {
-            timeZone: 'Europe/Rome',
-            year: 'numeric',
-            month: 'numeric',
-            day: 'numeric',
-            hour: 'numeric',
-            minute: 'numeric',
-        }
-        const time = document.getElementById('time')
-        const updateTime = () => {
-            time.innerText = new Date().toLocaleDateString([], options)
-        }
-        updateTime()
-        setInterval(updateTime, 15000)
+            const imgs = document.querySelectorAll('img');
+            imgs.forEach(img => {
+                img.addEventListener('load', () => {
+                    img.classList.add('loaded');
+                });
+                img.addEventListener('click', () => {
+                    img.classList.toggle('fullscreen')
+                    document.body.toggle('overflow-hidden')
+                });
+            })
 
 
-        // -----------------
+            // -----------------
 
-        // Show header on scroll
+            // Update time every 15s
 
-        window.addEventListener('scroll', () => {
-            const header = document.getElementById('fixed-header')
-            if (window.scrollY > 173) {
-                header.classList.remove('hidden')
-            } else {
-                header.classList.add('hidden')
+            let options = {
+                timeZone: 'Europe/Rome',
+                year: 'numeric',
+                month: 'numeric',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
             }
-        })
-
-
-        // -----------------
-
-        // Change theme
-
-        function toggleTheme() {
-            const button = document.querySelector('#theme-toggle')
-            button.classList.toggle('theme-dark')
-
-            const currentTheme = localStorage.getItem('theme')
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark'
-
-            localStorage.setItem('theme', newTheme)
-
-            if (newTheme === 'dark') {
-                document.documentElement.classList.add('dark')
-            } else {
-                document.documentElement.classList.remove('dark')
+            const time = document.getElementById('time')
+            const updateTime = () => {
+                time.innerText = new Date().toLocaleDateString([], options)
             }
-        }
-    </script>
+            updateTime()
+            setInterval(updateTime, 15000)
+
+
+            // -----------------
+
+            // Show header on scroll
+
+            window.addEventListener('scroll', () => {
+                const header = document.getElementById('fixed-header')
+                if (window.scrollY > 173) {
+                    header.classList.remove('hidden')
+                } else {
+                    header.classList.add('hidden')
+                }
+            })
+
+
+            // -----------------
+
+            // Change theme
+
+            function toggleTheme() {
+                const button = document.querySelector('#theme-toggle')
+                button.classList.toggle('theme-dark')
+
+                const currentTheme = localStorage.getItem('theme')
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark'
+
+                localStorage.setItem('theme', newTheme)
+
+                if (newTheme === 'dark') {
+                    document.documentElement.classList.add('dark')
+                } else {
+                    document.documentElement.classList.remove('dark')
+                }
+            }
+        </script>
+
 </body>
 
 </html>
