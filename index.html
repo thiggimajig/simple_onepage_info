@@ -577,6 +577,28 @@
 
             // -----------------
 
+            // -----------------
+
+            // Update time every 15s
+
+            let options = {
+                timeZone: 'North America/New York',
+                year: 'numeric',
+                month: 'numeric',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+            }
+            const time = document.getElementById('time')
+            const updateTime = () => {
+                time.innerText = new Date().toLocaleDateString([], options)
+            }
+            updateTime()
+            setInterval(updateTime, 15000)
+
+
+            // -----------------
+
             // Show header on scroll
 
             window.addEventListener('scroll', () => {
