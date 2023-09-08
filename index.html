@@ -428,7 +428,16 @@
                     <div class="flex flex-col text-slate-500 dark:text-slate-600 ">
                         <p class="font-serif italic ">
                             Time in Florence</p>
-                        <p id="time" class="-mt-4 "></p>
+                        <p id="time-fi" class="-mt-4 "></p>
+                    </div>
+
+                    <svg viewBox="0 0 256 256 " class="w-6 opacity-50 " astro-icon="ph:clock "><path fill="currentColor " d="M128 24a104 104 0 1 0 104 104A104.2 104.2 0 0 0 128 24zm0 192a88 88 0 1 1 88-88 88.1 88.1 0 0 1-88 88zm64-88a8 8 0 0 1-8 8h-56a8
+                        8 0 0 1-8-8V72a8 8 0 0 1 16 0v48h48a8 8 0 0 1 8 8z "/></svg>
+
+                    <div class="flex flex-col text-slate-500 dark:text-slate-600 ">
+                        <p class="font-serif italic ">
+                            Time in New York</p>
+                        <p id="time-ny" class="-mt-4 "></p>
                     </div>
                 </div>
                 <!-- <div><svg version="1.1 " id="Layer_1 " xmlns="http://www.w3.org/2000/svg " xmlns:xlink="http://www.w3.org/1999/xlink " x="0px " y="0px " width="100% " viewBox="0 0 1024 768 " enable-background="new 0 0 1024 768 " xml:space="preserve ">
@@ -567,9 +576,9 @@
                 hour: 'numeric',
                 minute: 'numeric',
             }
-            const time = document.getElementById('time')
+            const time_fi = document.getElementById('time-fi')
             const updateTime = () => {
-                time.innerText = new Date().toLocaleDateString([], options)
+                time_fi.innerText = new Date().toLocaleDateString([], options)
             }
             updateTime()
             setInterval(updateTime, 15000)
@@ -581,7 +590,7 @@
 
             // Update time every 15s
 
-            let options = {
+            let options_ny = {
                 timeZone: 'North America/New York',
                 year: 'numeric',
                 month: 'numeric',
@@ -589,9 +598,9 @@
                 hour: 'numeric',
                 minute: 'numeric',
             }
-            const time = document.getElementById('time')
+            const time_ny = document.getElementById('time-ny')
             const updateTime = () => {
-                time.innerText = new Date().toLocaleDateString([], options)
+                time_ny.innerText = new Date().toLocaleDateString([], options_ny)
             }
             updateTime()
             setInterval(updateTime, 15000)
